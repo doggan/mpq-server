@@ -3,8 +3,12 @@ mpq-server
 
 A node.js package for serving the contents of MPQ archives via HTTP.
 
+## Installation
+`npm install mpq-server`
+
 ## Usage
-* Copy MPQ archive to `data/`.
+* Copy MPQ archive to `data/`
+* Start server with `npm start`
 * Send HTTP requests to: `http://servername/mpq_files/:filename`
     * :exclamation:Note: File names within MPQ archives are often hashed using `\` as the directory marker. Make sure to encode them properly before sending an HTTP request.
     * Example:
