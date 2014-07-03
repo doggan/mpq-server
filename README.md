@@ -12,9 +12,8 @@ A node.js package for serving the contents of MPQ archives via HTTP.
 1. Send HTTP GET requests to the REST API:
     * `/mpq_files/:filename`
     * Example:
-        * `http://servername/mpq_files/foo.cel`
+        * `http://servername:1234/mpq_files/foo.cel`
 1. Handle the HTTP response.
-
 
 ### Note
 * File names within MPQ archives are often hashed using `\` as the directory marker. Make sure to encode them properly when sending the HTTP request.
