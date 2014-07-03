@@ -9,8 +9,10 @@ A node.js package for serving the contents of MPQ archives via HTTP.
 ## Usage
 1. Start the server:
     * `mpq-server /path/to/archive/file.mpq --port 1234`
-1. Send HTTP requests:
-    * `http://servername/mpq_files/:filename`
+1. Send HTTP GET requests to the REST API:
+    * `/mpq_files/:filename`
+    * Example:
+        * `http://servername/mpq_files/foo.cel`
 1. Handle the HTTP response.
 
 
