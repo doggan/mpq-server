@@ -4,8 +4,7 @@
   "description": "A package for serving the contents of MPQ archives via HTTP.",
   "main": "index.js",
   "scripts": {
-    "start": "node --use_strict ./index.js",
-    "test": "mocha --reporter spec"
+    "test": "node_modules/.bin/mocha --reporter spec"
   },
   "keywords": [
     "mpq",
