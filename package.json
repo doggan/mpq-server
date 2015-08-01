@@ -1,6 +1,6 @@
 {
   "name": "mpq-server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A package for serving the contents of MPQ archives via HTTP.",
   "main": "index.js",
   "scripts": {
